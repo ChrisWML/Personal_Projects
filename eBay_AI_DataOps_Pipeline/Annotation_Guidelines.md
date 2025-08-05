@@ -35,7 +35,7 @@ These guidelines define the process, taxonomy, and quality standards for human a
 * **Label**: 1
 * **Comment**: 
 
-#### 4.1.1 Negative Example
+#### 4.1.2 Negative Example
 
 * **Original**: "Potato Chipper Chip Chopper Cutter Slicer Maker and 2 Steel Edges French Fries"
 * **Machine Translation**: "土豆切片器切丁切割机制片器及2钢边法式炸薯条机"
