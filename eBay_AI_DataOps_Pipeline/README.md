@@ -79,7 +79,7 @@ To evolve this POC into a robust, multi-annotator pipeline suitable for enterpri
    - Monitor resource usage and pipeline health with integrated logging and alerting.
 
 10. **Big Data Considerations**  
-   - Switch from pandas to Spark/PySpark for ingestion & transformation when datasets exceed single-node memory.  
+    - Switch from pandas to Spark/PySpark for ingestion & transformation when datasets exceed single-node memory.  
    - Read/write data in partitioned Parquet/Delta files (by date, category, etc.) to enable parallel reads and writes.  
    - Use Kafka or S3 event-triggers plus structured streaming (Spark/Flink) for near-real-time data ingestion.  
    - Configure executor memory, cores, and shuffle partitions; monitor job metrics via Spark UI or cloud-native dashboards.  
