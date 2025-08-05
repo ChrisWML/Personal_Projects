@@ -78,6 +78,9 @@ To evolve this POC into a robust, multi-annotator pipeline suitable for enterpri
    - Implement retry logic, parallel task execution, and auto-scaling of workers/containers.  
    - Monitor resource usage and pipeline health with integrated logging and alerting.
 
+10. **AI-Powered Data Cleaning**  
+  - Leverages GPT-4 or similar models to automatically normalize text (e.g. standardizing units, removing noise, correcting typos), often yielding higher accuracy and catch-rates than rule-based scripts alone.
+
 ---
 
 *Feel free to fork, experiment, and build upon this foundation—your feedback and contributions are welcome!*  
