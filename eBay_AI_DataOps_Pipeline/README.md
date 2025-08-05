@@ -80,10 +80,10 @@ To evolve this POC into a robust, multi-annotator pipeline suitable for enterpri
 
 10. **Big Data Considerations**  
     - Switch from pandas to Spark/PySpark for ingestion & transformation when datasets exceed single-node memory.  
-   - Read/write data in partitioned Parquet/Delta files (by date, category, etc.) to enable parallel reads and writes.  
-   - Use Kafka or S3 event-triggers plus structured streaming (Spark/Flink) for near-real-time data ingestion.  
-   - Configure executor memory, cores, and shuffle partitions; monitor job metrics via Spark UI or cloud-native dashboards.  
-   - Persist intermediate tables and maintain Hive metastore or Glue Catalog for fast lookups.
+    - Read/write data in partitioned Parquet/Delta files (by date, category, etc.) to enable parallel reads and writes.  
+    - Use Kafka or S3 event-triggers plus structured streaming (Spark/Flink) for near-real-time data ingestion.  
+    - Configure executor memory, cores, and shuffle partitions; monitor job metrics via Spark UI or cloud-native dashboards.  
+    - Persist intermediate tables and maintain Hive metastore or Glue Catalog for fast lookups.
 
 11. **AI-Powered Data Cleaning**
     - Leverages GPT-4 or similar models to automatically normalize text (e.g. standardizing units, removing noise, correcting typos), often yielding higher accuracy and catch-rates than rule-based scripts alone.
