@@ -158,6 +158,9 @@ This plan has been constructed based on available information and knowledge gath
   - Scalability (handles large, diverse datasets and multiple workflows)  
   - Customization and extensibility (APIs, plugins, integrations)  
   - Security and compliance (PII, audit trails, access controls)
+- Explore opportunities for AI integration in the workflow:
+  - Use LLMs or lightweight models to assist with spec drafting, pre-labeling suggestions, or automated QA prompts.
+  - Evaluate feasibility of semi-automated workflows for low-complexity tasks, subject to QA gating and human-in-the-loop oversight.
 - Prototype and pilot selected tooling with a small subset of tasks/markets; gather feedback and iterate on configuration and workflow design.
 - Develop custom scripts or extensions as needed for business-specific requirements (e.g., integration with eBay systems, custom annotation formats, automated QA modules).
 - Engage stakeholders (leadership, DS, ops, vendors) early and often to secure buy-in, gather feedback and adjust rollout strategy.
@@ -181,6 +184,9 @@ This plan has been constructed based on available information and knowledge gath
 
 - **Risk:** Loss of critical domain knowledge during team transition  
   **Mitigation:** Shadowing, comprehensive documentation, validated onboarding package and continuous feedback loop.
+  
+- **Risk:** Learning curve for vendor management setup during transition  
+  **Mitigation:** Reference detailed handover documentation and engage internal stakeholders with prior vendor experience to ensure continuity and avoid process gaps.
 
 - **Risk:** Vendor or new hire underperformance  
   **Mitigation:** Structured onboarding, clear SLAs, regular scorecards, supportive interventions and escalation process.
